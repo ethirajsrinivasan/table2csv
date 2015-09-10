@@ -1,5 +1,10 @@
 # Table2csv
 
+[![Build Status](https://travis-ci.org/ethirajsrinivasan/table2csv.svg?branch=master)](https://travis-ci.org/ethirajsrinivasan/table2csv)
+[![Code Climate](https://codeclimate.com/github/ethirajsrinivasan/table2csv/badges/gpa.svg)](https://codeclimate.com/github/ethirajsrinivasan/table2csv)
+[![security](https://hakiri.io/github/ethirajsrinivasan/table2csv/master.svg)](https://hakiri.io/github/ethirajsrinivasan/table2csv/master)
+
+
 Table2csv gem allows you to export a table to csv.
 
 ## Installation
@@ -30,6 +35,10 @@ To use this gem add this require statement to your application.js file:
 Use the table_export_tag helper like any other regular tag helper next to your table:
 
 	<%= table_export_tag %>
+
+In order to select a particular table use id of the table as follows
+
+    <%= table_export_tag('id of the table') %>
 
 
 ## Contributing
