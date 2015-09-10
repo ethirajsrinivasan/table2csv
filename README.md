@@ -31,6 +31,10 @@ Use the table_export_tag helper like any other regular tag helper next to your t
 
 	<%= table_export_tag %>
 
+In order to select a particular table use id of the table as follows 	
+    
+    <%= table_export_tag('id of the table') %>
+
 
 ## Contributing
 
