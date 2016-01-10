@@ -40,6 +40,15 @@ In order to select a particular table use id of the table as follows
 
     <%= table_export_tag('id of the table') %>
 
+Options can be provided as second parameter.Following options are available:
+
+    export_link_text: 'Download'
+    width: '400px'
+    height: '500px'
+    color: '#444'
+    bgcolr: '#000'  (background-color)
+
+    <%= table_export_tag('name',{export_link_text: 'Download', width: '100px', height: '50px', color: '#E01111', bgcolor: '#444'})%>
 
 ## Contributing
 
